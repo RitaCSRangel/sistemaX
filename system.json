@@ -1,0 +1,22 @@
+{
+    "name": "sistemax",
+    "title": "Sistema X",
+    "description": "Sistema Próprio",
+    "version": "1.0.0",
+    "templateVersion": 2,
+    "author": "Rita de Cássia Santos Rangel e João Paulo da Silva Honório",
+       "minimumCoreVersion": "0.7.7",
+    "scripts": [],
+    "esmodules": ["sistemax.js"],
+    "styles": [],
+    "packs": [],
+    "languages": [],
+
+    "socket": false,
+    "initiative": "2d6 + @characteristics.dexterity.mod",
+    "gridDistance": 1.5,
+    "gridUnits": "m",
+    "url": "",
+    "manifest": "",
+    "download": ""
+  }

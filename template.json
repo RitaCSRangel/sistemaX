@@ -1,0 +1,53 @@
+{
+    "Actor": {
+      "types": ["personagem", "npc"],
+      "templates": {
+        "informacoes": {
+          "nomeJogador": "",
+          "nomePersonagem": "blue"
+        },
+
+        "caracteristicas": {
+          "vida": {
+            "min": 0,
+            "value": 10,
+            "max": 10
+          },
+          "defesa": {
+            "min": 0,
+            "value": 1,
+            "max": 3
+          }
+        }
+      },
+
+      "personagem": {
+        "templates": ["background", "resources"],
+        "goodness": {
+          "value": 5,
+          "max": 10
+        }
+      }
+    },
+
+
+    "Item": {
+      "types": ["weapon", "spell"],
+      "templates": {
+        "rarity": {
+          "rarity": "Common",
+          "price": 20
+        }
+      },
+
+      "weapon": {
+        "templates": ["rarity"],
+        "damage": 5
+      },
+      
+      "spell": {
+        "templates": ["rarity"],
+        "cost": 2
+      }
+    }
+    }
